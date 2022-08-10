@@ -1,3 +1,3 @@
-# This folder hosts code for data acquisition and understanding (exploratory analysis)
+# Essa pasta contém códigos para aquisição e entendimento dos dados (análise exploratória)
 
-You can add detailed description in this markdown related to your specific data science project.
+Você pode adicionar uma descrição detalhada relacionada ao seu projeto neste markdown.

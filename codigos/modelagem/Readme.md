@@ -1,3 +1,3 @@
-# This folder contains code for modeling and related activities (such as feature engineering, model evaluation etc.)
+# Esta pasta contém código relacionado a modelagem e atividades relacionadas (como engenharia de características, avaliação do modelo, etc)
 
-You can add detailed description in this markdown related to your specific data science project.
+Você pode adicionar uma descrição detalhada relacionada ao seu projeto neste markdown.
