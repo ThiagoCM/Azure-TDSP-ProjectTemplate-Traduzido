@@ -1,12 +1,12 @@
- # TDSP Project Structure, and Documents and Artifact Templates
+ # Estrutura de projeto TDSP, Templates para Documentos e Artefatos
 
-This is a general project directory structure for Team Data Science Process developed by Microsoft. It also contains templates for various documents that are recommended as part of executing a data science project when using TDSP. 
+Esse é uma estrutura de diretórios para projetos de Team Data Science Process desenvolvida pela Microsoft. Também contém templates para vários documentos que são recomendados ao executar projetos de ciência de dados usando TDSP.
 
-[Team Data Science Process (TDSP)](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/overview) is an agile, iterative, data science methodology to improve collaboration and team learning. It is supported through a lifecycle definition, standard project structure, artifact templates, and [tools](https://github.com/Azure/Azure-TDSP-Utilities) for productive data science. 
+[Team Data Science Process (TDSP)](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/overview) é uma metodologia para projetos de ciência de dados ágil e iterativa, desenvolvida para melhorar a colaboração e aprendizagem de equipes. Utiliza definições de ciclo de vida, uma estrutura padrão de projeto, artefatos e templates, além de [ferramentas](https://github.com/Azure/Azure-TDSP-Utilities) para aumentar a produtividade do projeto.
+
+**OBSERVAÇÃO:** Nessa estrutura de diretório, a pasta ***dados* não deve conter arquivos GRANDES, sejam eles processados ou não-processados**. A pasta deve conter apenas **pequenas amostragens** do conjunto de dados, que podem ser utilizados para testar o código.
+
+Os documentos [Documentação Inicial](./documentos/projeto/documentacao_inicial.md) e [Documentação Final](./documentos/projeto/documentacao_final.md), que se encontram dentro no caminho *documentos/projeto*, tem importância particular a ser considerada. Eles ajudam a definir o projeto ao início de uma iniciativa e fornecem a documentação final ao cliente ou área de negócio.
 
 
-**NOTE:** In this directory structure, the **Sample_Data folder is NOT supposed to contain LARGE raw or processed data**. It is only supposed to contain **small and sample** data sets, which could be used to test the code.
-
-The two documents under Docs/Project, namely the [Charter](./Docs/Project/Charter.md) and [Exit Report](./Docs/Project/Exit%20Report.md) are particularly important to consider. They help to define the project at the start of an engagement, and provide a final report to the customer or client.
-
-**NOTE:** In some projects, e.g. short term proof of principle (PoC) or proof of value (PoV) engagements, it can be relatively time consuming to create and all the recommended documents and artifacts. In that case, at least the Charter and Exit Report should be created and delivered to the customer or client. As necessary, organizations may modify certain sections of the documents. But it is strongly recommended that the content of the documents be maintained, as they provide important information about the project and deliverables.
+**OBSERVAÇÃO:** Em projetos de curto prazo, como provas de conceito (PoC) ou provas de valor (PoV), a criação de todos os documentos e artefatos recomendados pode levar um tempo considerável. Nesses casos, pelo menos as documentações iniciais e finais devem ser criadas e entregues ao cliente ou área de negócio. Conforme necessário, organizações podem modificar determinadas seções dos documentos. Contudo, é recomendável que o conteúdo dos documentos sejam mantidos, já que fornecem informações importantes sobre o projeto e entregáveis. 
